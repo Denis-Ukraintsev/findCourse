@@ -29,5 +29,5 @@ const findCourse = (range) => {
   return finded.sort((a, b) => (a.name > b.name ? 1 : -1));
 };
 
-// to watch in concole
+// to watch result in concole
 console.log(findCourse(requiredRange1));
